@@ -1,15 +1,35 @@
-2025/05/20-11:55:11.677 5520 Reusing MANIFEST C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.b62160c\flutter_tools_chrome_device.7da7c81f\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2025/05/20-11:55:11.679 5520 Recovering log #19
-2025/05/20-11:55:11.680 5520 Reusing old log C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.b62160c\flutter_tools_chrome_device.7da7c81f\Default\EdgeCoupons/coupons_data.db/000019.log 
-2025/05/20-11:55:11.681 5520 Delete type=0 #4
-2025/05/20-11:55:11.682 5520 Delete type=0 #7
-2025/05/20-11:55:11.682 5520 Delete type=2 #8
-2025/05/20-11:55:11.682 5520 Delete type=0 #10
-2025/05/20-11:55:11.682 5520 Delete type=2 #11
-2025/05/20-11:55:11.682 5520 Delete type=0 #13
-2025/05/20-11:55:11.683 5520 Delete type=2 #14
-2025/05/20-11:55:11.683 5520 Delete type=0 #16
-2025/05/20-11:55:11.684 5520 Delete type=2 #17
-2025/05/20-11:55:11.824 3b8 Level-0 table #24: started
-2025/05/20-11:55:11.827 3b8 Level-0 table #24: 670896 bytes OK
-2025/05/20-11:55:11.829 3b8 Delete type=0 #19
+2025/05/21-10:18:18.463 cbc Reusing MANIFEST C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.8b33646d\flutter_tools_chrome_device.a765fd44\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/21-10:18:18.467 cbc Recovering log #42
+2025/05/21-10:18:18.467 cbc Reusing old log C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.8b33646d\flutter_tools_chrome_device.a765fd44\Default\EdgeCoupons/coupons_data.db/000042.log 
+2025/05/21-10:18:18.477 cbc Delete type=0 #4
+2025/05/21-10:18:18.479 cbc Delete type=0 #7
+2025/05/21-10:18:18.480 cbc Delete type=2 #8
+2025/05/21-10:18:18.481 cbc Delete type=0 #10
+2025/05/21-10:18:18.481 cbc Delete type=2 #11
+2025/05/21-10:18:18.481 cbc Delete type=0 #13
+2025/05/21-10:18:18.481 cbc Delete type=2 #14
+2025/05/21-10:18:18.482 cbc Delete type=0 #16
+2025/05/21-10:18:18.482 cbc Delete type=2 #17
+2025/05/21-10:18:18.482 cbc Delete type=0 #19
+2025/05/21-10:18:18.483 cbc Delete type=2 #21
+2025/05/21-10:18:18.483 cbc Delete type=0 #23
+2025/05/21-10:18:18.483 cbc Delete type=2 #24
+2025/05/21-10:18:18.483 cbc Delete type=0 #26
+2025/05/21-10:18:18.483 cbc Delete type=2 #27
+2025/05/21-10:18:18.484 cbc Delete type=0 #29
+2025/05/21-10:18:18.484 cbc Delete type=2 #30
+2025/05/21-10:18:18.484 cbc Delete type=0 #32
+2025/05/21-10:18:18.484 cbc Delete type=0 #36
+2025/05/21-10:18:18.484 cbc Delete type=0 #39
+2025/05/21-10:18:18.650 102c Level-0 table #46: started
+2025/05/21-10:18:18.654 102c Level-0 table #46: 670896 bytes OK
+2025/05/21-10:18:18.655 102c Delete type=0 #42
+2025/05/21-10:18:18.655 102c Compacting 4@0 + 1@1 files
+2025/05/21-10:18:18.659 102c Generated table #47@0: 3 keys, 670896 bytes
+2025/05/21-10:18:18.659 102c Compacted 4@0 + 1@1 files => 670896 bytes
+2025/05/21-10:18:18.660 102c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/05/21-10:18:18.660 102c Delete type=2 #34
+2025/05/21-10:18:18.660 102c Delete type=2 #37
+2025/05/21-10:18:18.660 102c Delete type=2 #40
+2025/05/21-10:18:18.661 102c Delete type=2 #43
+2025/05/21-10:18:18.661 102c Delete type=2 #46

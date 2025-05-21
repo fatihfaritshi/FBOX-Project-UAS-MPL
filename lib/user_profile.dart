@@ -1,14 +1,75 @@
 import 'package:flutter/material.dart';
+import 'user_data.dart'; // tambahkan ini
 
-class UserProfilePage extends StatelessWidget {
+class UserProfilePage extends StatefulWidget {
   const UserProfilePage({super.key});
 
   @override
+  State<UserProfilePage> createState() => _UserProfilePageState();
+}
+
+class _UserProfilePageState extends State<UserProfilePage> {
+  final TextEditingController nameController = TextEditingController();
+  final TextEditingController genreController = TextEditingController();
+
+  void _editProfile() {
+    nameController.text = UserData.name;
+    genreController.text = UserData.favoriteGenre;
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: const Text('Edit Profile'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: nameController,
+                decoration: const InputDecoration(labelText: 'Name'),
+              ),
+              TextField(
+                controller: genreController,
+                decoration: const InputDecoration(labelText: 'Favorite Genre'),
+              ),
+            ],
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Cancel'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  UserData.name = nameController.text;
+                  UserData.favoriteGenre = genreController.text;
+                });
+                Navigator.pop(context);
+              },
+              child: const Text('Save'),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final name = UserData.name;
+    final favoriteGenre = UserData.favoriteGenre;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('User Profile'),
         backgroundColor: const Color.fromARGB(255, 5, 13, 67),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.edit),
+            onPressed: _editProfile,
+          ),
+        ],
       ),
       body: Container(
         width: double.infinity,
@@ -28,9 +89,8 @@ class UserProfilePage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Profile picture
               Container(
-                padding: const EdgeInsets.all(3), // Ketebalan outline
+                padding: const EdgeInsets.all(3),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(color: Colors.white, width: 3),
@@ -42,26 +102,23 @@ class UserProfilePage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              const Text(
-                'Fatih Faritshi',
-                style: TextStyle(
+              Text(
+                name,
+                style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
-              const Text(
-                'Favorite Genre: Pop',
-                style: TextStyle(color: Colors.white70),
+              Text(
+                'Favorite Genre: $favoriteGenre',
+                style: const TextStyle(color: Colors.white70),
               ),
               const SizedBox(height: 30),
 
-              // Followers & Following
               Container(
                 padding: const EdgeInsets.symmetric(
-                  vertical: 15,
-                  horizontal: 25,
-                ),
+                    vertical: 15, horizontal: 25),
                 decoration: BoxDecoration(
                   color: Colors.white.withOpacity(0.35),
                   borderRadius: BorderRadius.circular(12),
@@ -92,8 +149,6 @@ class UserProfilePage extends StatelessWidget {
                         ),
                       ],
                     ),
-
-                    // Garis pemisah
                     Container(
                       height: 30,
                       width: 1,
@@ -119,10 +174,8 @@ class UserProfilePage extends StatelessWidget {
                   ],
                 ),
               ),
-
               const SizedBox(height: 30),
 
-              // Playlist Info
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
