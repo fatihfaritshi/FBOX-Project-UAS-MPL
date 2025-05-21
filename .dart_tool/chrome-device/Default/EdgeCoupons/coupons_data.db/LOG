@@ -1,35 +1,40 @@
-2025/05/21-10:18:18.463 cbc Reusing MANIFEST C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.8b33646d\flutter_tools_chrome_device.a765fd44\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
-2025/05/21-10:18:18.467 cbc Recovering log #42
-2025/05/21-10:18:18.467 cbc Reusing old log C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.8b33646d\flutter_tools_chrome_device.a765fd44\Default\EdgeCoupons/coupons_data.db/000042.log 
-2025/05/21-10:18:18.477 cbc Delete type=0 #4
-2025/05/21-10:18:18.479 cbc Delete type=0 #7
-2025/05/21-10:18:18.480 cbc Delete type=2 #8
-2025/05/21-10:18:18.481 cbc Delete type=0 #10
-2025/05/21-10:18:18.481 cbc Delete type=2 #11
-2025/05/21-10:18:18.481 cbc Delete type=0 #13
-2025/05/21-10:18:18.481 cbc Delete type=2 #14
-2025/05/21-10:18:18.482 cbc Delete type=0 #16
-2025/05/21-10:18:18.482 cbc Delete type=2 #17
-2025/05/21-10:18:18.482 cbc Delete type=0 #19
-2025/05/21-10:18:18.483 cbc Delete type=2 #21
-2025/05/21-10:18:18.483 cbc Delete type=0 #23
-2025/05/21-10:18:18.483 cbc Delete type=2 #24
-2025/05/21-10:18:18.483 cbc Delete type=0 #26
-2025/05/21-10:18:18.483 cbc Delete type=2 #27
-2025/05/21-10:18:18.484 cbc Delete type=0 #29
-2025/05/21-10:18:18.484 cbc Delete type=2 #30
-2025/05/21-10:18:18.484 cbc Delete type=0 #32
-2025/05/21-10:18:18.484 cbc Delete type=0 #36
-2025/05/21-10:18:18.484 cbc Delete type=0 #39
-2025/05/21-10:18:18.650 102c Level-0 table #46: started
-2025/05/21-10:18:18.654 102c Level-0 table #46: 670896 bytes OK
-2025/05/21-10:18:18.655 102c Delete type=0 #42
-2025/05/21-10:18:18.655 102c Compacting 4@0 + 1@1 files
-2025/05/21-10:18:18.659 102c Generated table #47@0: 3 keys, 670896 bytes
-2025/05/21-10:18:18.659 102c Compacted 4@0 + 1@1 files => 670896 bytes
-2025/05/21-10:18:18.660 102c compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/05/21-10:18:18.660 102c Delete type=2 #34
-2025/05/21-10:18:18.660 102c Delete type=2 #37
-2025/05/21-10:18:18.660 102c Delete type=2 #40
-2025/05/21-10:18:18.661 102c Delete type=2 #43
-2025/05/21-10:18:18.661 102c Delete type=2 #46
+2025/05/21-19:51:21.652 2eb4 Reusing MANIFEST C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.dba715dd\flutter_tools_chrome_device.564568b8\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2025/05/21-19:51:21.690 2eb4 Recovering log #62
+2025/05/21-19:51:21.691 2eb4 Reusing old log C:\Users\Lenovo\AppData\Local\Temp\flutter_tools.dba715dd\flutter_tools_chrome_device.564568b8\Default\EdgeCoupons/coupons_data.db/000062.log 
+2025/05/21-19:51:21.705 2eb4 Delete type=0 #4
+2025/05/21-19:51:21.705 2eb4 Delete type=0 #7
+2025/05/21-19:51:21.720 2eb4 Delete type=2 #8
+2025/05/21-19:51:21.723 2eb4 Delete type=0 #10
+2025/05/21-19:51:21.724 2eb4 Delete type=2 #11
+2025/05/21-19:51:21.724 2eb4 Delete type=0 #13
+2025/05/21-19:51:21.724 2eb4 Delete type=2 #14
+2025/05/21-19:51:21.725 2eb4 Delete type=0 #16
+2025/05/21-19:51:21.725 2eb4 Delete type=2 #17
+2025/05/21-19:51:21.726 2eb4 Delete type=0 #19
+2025/05/21-19:51:21.726 2eb4 Delete type=2 #21
+2025/05/21-19:51:21.727 2eb4 Delete type=0 #23
+2025/05/21-19:51:21.728 2eb4 Delete type=2 #24
+2025/05/21-19:51:21.729 2eb4 Delete type=0 #26
+2025/05/21-19:51:21.729 2eb4 Delete type=2 #27
+2025/05/21-19:51:21.730 2eb4 Delete type=0 #29
+2025/05/21-19:51:21.730 2eb4 Delete type=2 #30
+2025/05/21-19:51:21.731 2eb4 Delete type=0 #32
+2025/05/21-19:51:21.731 2eb4 Delete type=2 #34
+2025/05/21-19:51:21.732 2eb4 Delete type=0 #36
+2025/05/21-19:51:21.733 2eb4 Delete type=2 #37
+2025/05/21-19:51:21.733 2eb4 Delete type=0 #39
+2025/05/21-19:51:21.734 2eb4 Delete type=2 #40
+2025/05/21-19:51:21.735 2eb4 Delete type=0 #42
+2025/05/21-19:51:21.735 2eb4 Delete type=2 #43
+2025/05/21-19:51:21.736 2eb4 Delete type=0 #45
+2025/05/21-19:51:21.736 2eb4 Delete type=2 #47
+2025/05/21-19:51:21.736 2eb4 Delete type=0 #49
+2025/05/21-19:51:21.737 2eb4 Delete type=2 #50
+2025/05/21-19:51:21.737 2eb4 Delete type=0 #52
+2025/05/21-19:51:21.738 2eb4 Delete type=2 #53
+2025/05/21-19:51:21.738 2eb4 Delete type=0 #55
+2025/05/21-19:51:21.739 2eb4 Delete type=2 #56
+2025/05/21-19:51:21.740 2eb4 Delete type=0 #58
+2025/05/21-19:51:21.858 2cec Level-0 table #66: started
+2025/05/21-19:51:21.868 2cec Level-0 table #66: 670896 bytes OK
+2025/05/21-19:51:21.871 2cec Delete type=0 #62

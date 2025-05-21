@@ -68,8 +68,10 @@ class _SongDetailPageState extends State<SongDetailPage>
 
   void previousSong() {
     setState(() {
-      currentIndex = (currentIndex - 1 + widget.songs.length) % widget.songs.length;
-      isPlaying = false; // otomatis pause ketika pindah lagu, bisa diubah sesuai kebutuhan
+      currentIndex =
+          (currentIndex - 1 + widget.songs.length) % widget.songs.length;
+      isPlaying =
+          false; // otomatis pause ketika pindah lagu, bisa diubah sesuai kebutuhan
       _scaleController.reset();
       _rotationController.reset();
     });
@@ -233,7 +235,7 @@ class _SongDetailPageState extends State<SongDetailPage>
                 ],
               ),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   const Text(
                     'Song Info',
@@ -242,13 +244,53 @@ class _SongDetailPageState extends State<SongDetailPage>
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 5, 13, 67),
                     ),
+                    textAlign: TextAlign.center,
+                  ),
+                  const SizedBox(height: 24),
+
+                  // Album
+                  const Text(
+                    'Album:',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(song['album'] ?? 'Unknown', textAlign: TextAlign.center),
+                  const SizedBox(height: 16),
+
+                  // Year
+                  const Text(
+                    'Year:',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(song['year'] ?? 'Unknown', textAlign: TextAlign.center),
+                  const SizedBox(height: 16),
+
+                  // Songwriter
+                  const Text(
+                    'Songwriter:',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(
+                    song['songwriter'] ?? 'Unknown',
+                    textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 16),
-                  Text('Album: ${song['album'] ?? 'Unknown'}'),
-                  Text('Year: ${song['year'] ?? 'Unknown'}'),
-                  Text('Songwriter: ${song['songwriter'] ?? 'Unknown'}'),
-                  Text('Composer: ${song['composer'] ?? 'Unknown'}'),
+
+                  // Composer
+                  const Text(
+                    'Composer:',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(
+                    song['composer'] ?? 'Unknown',
+                    textAlign: TextAlign.center,
+                  ),
+
                   const Spacer(),
+
                   Align(
                     alignment: Alignment.bottomRight,
                     child: IconButton(

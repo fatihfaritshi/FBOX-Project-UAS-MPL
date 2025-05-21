@@ -261,7 +261,7 @@ class _HomePageState extends State<HomePage> {
                               5,
                               13,
                               67,
-                            ), // Atau samakan dengan background kamu
+                            ), 
                           ],
                         ),
                       ),

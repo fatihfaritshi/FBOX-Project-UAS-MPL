@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'song_detail.dart';
+import 'user_profile.dart';
 
 class SongListPage extends StatelessWidget {
   final String genre;
@@ -15,7 +16,7 @@ class SongListPage extends StatelessWidget {
       "year": "2021",
       "songwriter": "Gamaliel Tapiheru",
       "composer": "Gamaliel Tapiheru",
-      "album": "Q1"
+      "album": "Q1",
     },
     {
       "title": "Always",
@@ -25,7 +26,7 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "Daniel Caesar",
       "composer": "Daniel Caesar",
-      "album": "NEVER ENOUGH"
+      "album": "NEVER ENOUGH",
     },
     {
       "title": "Blue",
@@ -35,7 +36,7 @@ class SongListPage extends StatelessWidget {
       "year": "2022",
       "songwriter": "Jackson Wang",
       "composer": "Jackson Wang, Mirror Music",
-      "album": "MAGIC MAN"
+      "album": "MAGIC MAN",
     },
     {
       "title": "Ditto",
@@ -45,7 +46,7 @@ class SongListPage extends StatelessWidget {
       "year": "2022",
       "songwriter": "250, Ylva Dimberg",
       "composer": "250",
-      "album": "OMG (Single Album)"
+      "album": "OMG (Single Album)",
     },
     {
       "title": "ETA",
@@ -55,7 +56,7 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "Beenzino, Ylva Dimberg",
       "composer": "250",
-      "album": "Get Up"
+      "album": "Get Up",
     },
     {
       "title": "Fine Line",
@@ -65,7 +66,7 @@ class SongListPage extends StatelessWidget {
       "year": "2019",
       "songwriter": "Harry Styles, Thomas Hull, Tyler Johnson",
       "composer": "Harry Styles, Thomas Hull, Tyler Johnson",
-      "album": "Fine Line"
+      "album": "Fine Line",
     },
     {
       "title": "If I Got You",
@@ -75,7 +76,7 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "ZAYN",
       "composer": "ZAYN",
-      "album": "Room Under the Stairs"
+      "album": "Room Under the Stairs",
     },
     {
       "title": "her",
@@ -85,7 +86,7 @@ class SongListPage extends StatelessWidget {
       "year": "2018",
       "songwriter": "JB (Defsoul), MirrorBOY, Munhan Mirror",
       "composer": "Defsoul, Munhan Mirror, MirrorBOY",
-      "album": "Present: YOU"
+      "album": "Present: YOU",
     },
     {
       "title": "Lied To",
@@ -95,7 +96,7 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "ZAYN",
       "composer": "ZAYN",
-      "album": "Room Under the Stairs"
+      "album": "Room Under the Stairs",
     },
     {
       "title": "Little Window",
@@ -105,7 +106,7 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "Finneas O'Connell",
       "composer": "Finneas O'Connell",
-      "album": "For Cryin' Out Loud!"
+      "album": "For Cryin' Out Loud!",
     },
     {
       "title": "Love Wins All",
@@ -115,7 +116,7 @@ class SongListPage extends StatelessWidget {
       "year": "2024",
       "songwriter": "IU",
       "composer": "IU, Seo Dong-hwan",
-      "album": "The Winning"
+      "album": "The Winning",
     },
     {
       "title": "Monster in Me",
@@ -123,9 +124,10 @@ class SongListPage extends StatelessWidget {
       "genre": "Pop",
       "image": "assets/lm5.jpeg",
       "year": "2018",
-      "songwriter": "Jess Glynne, Edvard Forre Erfjord, Henrik Barman Michelsen",
+      "songwriter":
+          "Jess Glynne, Edvard Forre Erfjord, Henrik Barman Michelsen",
       "composer": "Jess Glynne, Electric",
-      "album": "LM5"
+      "album": "LM5",
     },
     {
       "title": "Oceans & Engines",
@@ -135,7 +137,7 @@ class SongListPage extends StatelessWidget {
       "year": "2022",
       "songwriter": "NIKI",
       "composer": "NIKI",
-      "album": "Nicole"
+      "album": "Nicole",
     },
     {
       "title": "Shape of You",
@@ -145,7 +147,7 @@ class SongListPage extends StatelessWidget {
       "year": "2017",
       "songwriter": "Ed Sheeran, Steve Mac, Johnny McDaid",
       "composer": "Ed Sheeran, Steve Mac",
-      "album": "÷ (Divide)"
+      "album": "÷ (Divide)",
     },
     {
       "title": "So Long, London",
@@ -155,7 +157,7 @@ class SongListPage extends StatelessWidget {
       "year": "2024",
       "songwriter": "Taylor Swift",
       "composer": "Taylor Swift, Aaron Dessner",
-      "album": "The Tortured Poets Department"
+      "album": "The Tortured Poets Department",
     },
     {
       "title": "Star",
@@ -165,7 +167,7 @@ class SongListPage extends StatelessWidget {
       "year": "2020",
       "songwriter": "Colde",
       "composer": "Colde",
-      "album": "Idealism"
+      "album": "Idealism",
     },
     {
       "title": "stay a little longer",
@@ -175,7 +177,7 @@ class SongListPage extends StatelessWidget {
       "year": "2021",
       "songwriter": "ROSÉ",
       "composer": "ROSÉ",
-      "album": "R (Project Film)"
+      "album": "R (Project Film)",
     },
     {
       "title": "Thank You",
@@ -185,7 +187,7 @@ class SongListPage extends StatelessWidget {
       "year": "2018",
       "songwriter": "Jinyoung, Mirror BOY",
       "composer": "Mirror BOY, D.ham, Munhan Mirror",
-      "album": "Eyes On You"
+      "album": "Eyes On You",
     },
     {
       "title": "TOXIC",
@@ -195,17 +197,17 @@ class SongListPage extends StatelessWidget {
       "year": "2023",
       "songwriter": "MEOVV",
       "composer": "MEOVV",
-      "album": "MY EYES OPEN VVIDE"
+      "album": "MY EYES OPEN VVIDE",
     },
     {
       "title": "WILDFLOWER",
       "artist": "Billie Eilish",
       "genre": "Pop",
       "image": "assets/wild.png",
-      "year": "Unreleased/Unknown",
+      "year": "2024",
       "songwriter": "Billie Eilish",
       "composer": "Finneas O'Connell",
-      "album": "Hit Me Hard and Soft"
+      "album": "Hit Me Hard and Soft",
     },
     {
       "title": "Woojooin",
@@ -215,13 +217,14 @@ class SongListPage extends StatelessWidget {
       "year": "2024",
       "songwriter": "Unknown",
       "composer": "Unknown",
-      "album": "Melo Movie OST"
-    }, 
+      "album": "Melo Movie OST",
+    },
   ];
 
   @override
   Widget build(BuildContext context) {
-    final filteredSongs = songs.where((song) => song['genre'] == genre).toList();
+    final filteredSongs =
+        songs.where((song) => song['genre'] == genre).toList();
 
     return Scaffold(
       appBar: AppBar(
@@ -236,7 +239,10 @@ class SongListPage extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.person),
             onPressed: () {
-              Navigator.pushNamed(context, '/profile');
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const UserProfilePage()),
+              );
             },
           ),
         ],
@@ -268,17 +274,18 @@ class SongListPage extends StatelessWidget {
               ),
             ),
             subtitle: Text(
-              '${song['artist']} • ${song['genre']}',
-              style: const TextStyle(fontFamily: 'Montserrat', fontSize: 14),
+              '${song['artist']} • ${song['album']} • ${song['year']}',
+              style: const TextStyle(fontFamily: 'Montserrat', fontSize: 13),
             ),
             onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => SongDetailPage(
-                    songs: filteredSongs,
-                    currentIndex: index,
-                  ),
+                  builder:
+                      (context) => SongDetailPage(
+                        songs: filteredSongs,
+                        currentIndex: index,
+                      ),
                 ),
               );
             },
