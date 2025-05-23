@@ -154,3 +154,66 @@
 2025-05-21 12:50:55.879: [INFO] BookmarkModelLoaded, ids_reassigned: 0
 2025-05-21 12:50:55.879: [INFO] OnDoneLoading sync enabled: 1
 2025-05-21 12:51:01.221: [INFO] Sync initialization duration: 4597ms
+2025-05-23 02:20:03.017: [INFO] VisibilityChanged: 0
+2025-05-23 02:20:03.070: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:20:03.070: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:20:03.070: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:20:03.070: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:20:03.070: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:20:09.628: [INFO] Sync initialization duration: 2397ms
+2025-05-23 02:30:22.445: [INFO] VisibilityChanged: 0
+2025-05-23 02:30:22.496: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:30:22.496: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:30:22.496: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:30:22.496: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:30:22.496: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:30:25.814: [INFO] Sync initialization duration: 3013ms
+2025-05-23 02:32:11.429: [INFO] VisibilityChanged: 0
+2025-05-23 02:32:11.476: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:32:11.476: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:32:11.476: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:32:11.476: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:32:11.476: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:32:13.163: [INFO] Sync initialization duration: 1436ms
+2025-05-23 02:36:23.335: [INFO] VisibilityChanged: 0
+2025-05-23 02:36:23.383: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:36:23.383: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:36:23.384: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:36:23.384: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:36:23.384: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:36:25.106: [INFO] Sync initialization duration: 1453ms
+2025-05-23 02:39:19.411: [INFO] VisibilityChanged: 0
+2025-05-23 02:39:19.467: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:39:19.468: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:39:19.468: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:39:19.468: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:39:19.468: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:39:20.918: [INFO] Sync initialization duration: 1187ms
+2025-05-23 02:42:34.526: [INFO] VisibilityChanged: 0
+2025-05-23 02:42:34.577: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:42:34.577: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:42:34.578: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:42:34.578: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:42:34.578: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:42:36.414: [INFO] Sync initialization duration: 1605ms
+2025-05-23 02:50:27.429: [INFO] VisibilityChanged: 0
+2025-05-23 02:50:27.487: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:50:27.488: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:50:27.488: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:50:27.488: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:50:27.488: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:50:29.150: [INFO] Sync initialization duration: 1444ms
+2025-05-23 02:53:16.028: [INFO] VisibilityChanged: 0
+2025-05-23 02:53:16.083: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:53:16.083: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:53:16.083: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 02:53:16.083: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 02:53:16.083: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 02:53:17.633: [INFO] Sync initialization duration: 1297ms
+2025-05-23 03:35:17.239: [INFO] VisibilityChanged: 0
+2025-05-23 03:35:17.287: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 03:35:17.287: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 03:35:17.287: [INFO] BookmarkNodeAdded, ABU: 0
+2025-05-23 03:35:17.287: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2025-05-23 03:35:17.287: [INFO] OnDoneLoading sync enabled: 1
+2025-05-23 03:36:01.262: [INFO] Sync initialization duration: 13691ms
